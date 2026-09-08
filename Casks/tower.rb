@@ -8,7 +8,7 @@ cask "tower" do
   desc "Local subscription, proxy node and routing configuration manager"
   homepage "https://tower.shenqi.uk/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tower.app", target: "塔台.app"
 end
