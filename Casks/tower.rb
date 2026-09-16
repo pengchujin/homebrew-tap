@@ -6,7 +6,7 @@ cask "tower" do
   name "Tower"
   name "塔台"
   desc "Local subscription, proxy node and routing configuration manager"
-  homepage "https://tower.shenqi.uk/"
+  homepage "https://github.com/pengchujin/tower"
 
   depends_on macos: :sonoma
 
