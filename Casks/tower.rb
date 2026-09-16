@@ -9,11 +9,7 @@ cask "tower" do
   homepage "https://github.com/pengchujin/tower"
 
   # Homebrew 7 treats a symbol as a minimum; older versions treat it as exact.
-  if HOMEBREW_VERSION.to_i >= 7
-    depends_on macos: :sonoma
-  else
-    depends_on macos: ">= :sonoma"
-  end
+  depends_on macos: (HOMEBREW_VERSION.to_i >= 7) ? :sonoma : ">= :sonoma"
 
   app "Tower.app", target: "塔台.app"
 end
