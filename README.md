@@ -1,4 +1,22 @@
-# 塔台 Homebrew Tap
+# Pengchujin Homebrew Tap
+
+提供塔台与 MacTV 的 macOS 安装包。
+
+## MacTV · 电视遥控
+
+通过 HDMI-CEC，在 Mac 上调节电视音量、切换输入源、操作菜单。需要 Apple Silicon 与 macOS 14+。
+
+```sh
+brew install --cask pengchujin/tap/mactv
+```
+
+更新：`brew update && brew upgrade --cask pengchujin/tap/mactv`。
+
+卸载：`brew uninstall --cask pengchujin/tap/mactv`，保留设置。
+
+安装包来自 [MacTV GitHub Releases](https://github.com/pengchujin/MacTV/releases)，已使用 Developer ID 签名并通过 Apple 公证。
+
+## 塔台
 
 免费的 Mac 订阅与节点管理工具。支持 macOS 14+、Apple 芯片与 Intel Mac。
 
@@ -32,3 +50,5 @@ brew uninstall --cask pengchujin/tap/tower
 ## 维护
 
 新 Mac Release 发布后，同步更新 `Casks/tower.rb` 的版本号、构建号和 DMG SHA-256。校验后推送此仓库，用户即可通过 `brew update` / `brew upgrade` 获取更新。
+
+MacTV 发布后，同步更新 `Casks/mactv.rb` 的版本号和 ZIP SHA-256，并验证下载与安装。
