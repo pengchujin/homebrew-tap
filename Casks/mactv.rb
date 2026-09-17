@@ -1,6 +1,6 @@
 cask "mactv" do
-  version "0.1.1"
-  sha256 "21d7c3333772c0c93bff4705147e0857c26eb17f273b95d6ded8f4e83bc1a377"
+  version "0.1.2"
+  sha256 "5a61b15947f57cb07e145f59c0486b60f11abefebfc0b2b52a4780a51a1d7546"
 
   url "https://github.com/pengchujin/MacTV/releases/download/v#{version}/MacTV-v#{version}-macOS-arm64.zip"
   name "MacTV"
