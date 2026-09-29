@@ -1,6 +1,6 @@
 cask "tower" do
-  version "1.0.21,59"
-  sha256 "420cb665dacf2ac6e57bf0b8ff12f7c9891b60690c1e0280c8c4aa3b5bdff235"
+  version "1.0.22,60"
+  sha256 "53a076dd1f929069c6dcdb3ce9cdd5ab3b246ab06c2bcd51cd0753be0dc8e20a"
 
   url "https://github.com/pengchujin/tower/releases/download/v#{version.csv.first}/Tower-#{version.csv.first}-#{version.csv.second}-macOS-universal.dmg"
   name "Tower"
