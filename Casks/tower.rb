@@ -1,8 +1,8 @@
 cask "tower" do
-  version "1.0.30,70"
-  sha256 "1ac84eaa2385f07b3fd76a5f2f65b8e3b82d3867250d74c635f7392d61db1dee"
+  version "1.0.30,71"
+  sha256 "10e78d9f33e5f178d435eab5e4abf42e2081e76b29f28c58e9f7d35c1d8ee7c1"
 
-  url "https://github.com/pengchujin/tower/releases/download/v#{version.csv.first}/Tower-#{version.csv.first}-#{version.csv.second}-macOS-universal.dmg"
+  url "https://github.com/pengchujin/tower/releases/download/v#{version.csv.first}-#{version.csv.second}/Tower-#{version.csv.first}-#{version.csv.second}-macOS-universal.dmg"
   name "Tower"
   name "塔台"
   desc "Local subscription, proxy node and routing configuration manager"
